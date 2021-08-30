@@ -486,7 +486,7 @@ a {
     -o-background-size: cover;
     background-repeat: no-repeat;
     &.home {
-        background-image: url(../img/banner/Eng-2.jpg);
+        background-image: url(../img/banner/cnk-eng-2.jpg);
         background-position: top center;
         @media(max-width:500px) {
             background-position: -550px 15px;
@@ -592,8 +592,8 @@ a {
         background-image: url(../img/banner/Gradebook-DistrictAdmin.jpg);
         @extend .white-text;
     }
-    &.loners {
-        background-image: url(../img/banner/hsr-banner-loners.jpg);
+    &.proposal {
+        background-image: url(../img/banner/cnk-proposal.jpg);
         @extend .white-text;
         @extend .bg-fixed;
     }      

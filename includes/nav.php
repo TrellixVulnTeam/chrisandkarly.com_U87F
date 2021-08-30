@@ -2,22 +2,16 @@
     <ul class="nav navbar-nav v2">
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="cs">
-            <a class="page-scroll" href="#about">Our Story</a>
+            <a class="page-scroll" href="#story">Our Story</a>
         </li>
         <li>
-            <a class="page-scroll" href="#sponsor-logos">Registry</a>           
+            <a class="page-scroll" href="#proposal">The Proposal</a>           
         </li>
         <li>
-            <a class="page-scroll" href="#events">Calendar</a>
+            <a class="page-scroll" href="#registry">Registry</a>
         </li>
-<!--         <li>
-            <a class="page-scroll" href="index.php?page=blog">Support Us</a>
-        </li>      -->   
-<!--         <li>
-            <a target="_blank" href="http://shop.hackshackracing.com">Shop</a>
-        </li>     -->
         <li>
-            <a class="page-scroll" href="#footer">Contact</a>
+            <a class="page-scroll" href="#wherewhen">Where & When</a>
         </li>              
     </ul>
 </div>

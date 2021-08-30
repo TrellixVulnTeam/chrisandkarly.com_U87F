@@ -25,7 +25,7 @@
                     <h3 class="questrial white-text nomargin"><span id="countdown"></span><a href="https://ultra4racing.com/race/17" target="_blank" class="white-text i">From the sea to the sky</a></h3>
                 </div>
                 <div class="KOHLogo"> 
-                    <a href="https://ultra4racing.com/race/17"><img src="img/sub/CK-Logo_Mtns2.png" alt=""></a>
+                    <a href="#story"><img src="img/sub/CK-Logo_Mtns2.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
 
 
 <!-- Our Story Section -->
-<section id="sponsor-logos" class="padded less beige">
+<section id="story" class="padded beige">
     <div class="container">
         <div class="col-md-10">
             <h1>A boy from Connecticut<br /> and a girl from Philly.</h1>
@@ -65,11 +65,11 @@
 
 
 <!-- The Proposal Section -->
-<section id="about" class="text-left">
-<div class="backgrounded loners">
+<section id="proposal" class="text-left">
+<div class="backgrounded proposal">
     <div class="container">
         <div class="col-md-10">
-            <h1>A boy from Connecticut<br /> and a girl from Philly.</h1>
+            <h1>A bike ride and a sunset.</h1>
             <h4>
                 It started with two boys and a Jeep. Little did they know, it would escalate to a team of over 20 people, thousands of miles across America, and the race of a lifetime. 
             </h4>
@@ -83,7 +83,7 @@
 
 
 <!-- Registry Section -->
-<section id="sponsor-logos" class="padded less beige">
+<section id="registry" class="padded less beige">
 <div class="container">
     <div class="row text-xs-center text-sm-center">
         <div class="col-xs-12 text-center">
