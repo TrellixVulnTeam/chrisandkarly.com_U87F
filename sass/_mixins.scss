@@ -1,0 +1,19 @@
+//  Color Mixins
+@mixin textcolor($colour) {
+  color: map-get($colours, $colour);
+}
+@mixin bgcolor($bgcolor) {
+  background-color: map-get($colours, $bgcolor);
+}
+
+//  Font Mixins
+// font-family: 'Questrial', sans-serif;
+// font-family: 'Lato', sans-serif;
+
+//  Border Radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

@@ -1,0 +1,478 @@
+// Coustom Styles
+
+
+/* ENRISE FONTS */
+@font-face {
+    font-family: 'GeogrotesqueRegular';
+    src: url('../fonts/geogrotesque/geogrotesque-regular-webfont.eot');
+    src: url('../fonts/geogrotesque/geogrotesque-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geogrotesque/geogrotesque-regular-webfont.woff') format('woff'), url('../fonts/geogrotesque/geogrotesque-regular-webfont.ttf') format('truetype'), url('../fonts/geogrotesque/geogrotesque-regular-webfont.svg#GeogrotesqueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeogrotesqueMedium';
+    src: url('../fonts/geogrotesque/geogrotesque-medium-webfont.eot');
+    src: url('../fonts/geogrotesque/geogrotesque-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geogrotesque/geogrotesque-medium-webfont.woff') format('woff'), url('../fonts/geogrotesque/geogrotesque-medium-webfont.ttf') format('truetype'), url('../fonts/geogrotesque/geogrotesque-medium-webfont.svg#GeogrotesqueMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeogrotesqueSemibold';
+    src: url('../fonts/geogrotesque/geogrotesque-semibold-webfont.eot');
+    src: url('../fonts/geogrotesque/geogrotesque-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geogrotesque/geogrotesque-semibold-webfont.woff') format('woff'), url('../fonts/geogrotesque/geogrotesque-semibold-webfont.ttf') format('truetype'), url('../fonts/geogrotesque/geogrotesque-semibold-webfont.svg#GeogrotesqueSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Visibility */
+.hide, .Hide, .d-n {
+	display: none !important;
+}
+.show, .Show, .d-b {
+	display: block !important;
+}
+.super-center {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+/*Text Enhance*/
+.text-cap, .uppercase { text-transform: uppercase;}
+.text-lower, .lowercase { text-transform: lowercase;}
+.text-underline, .underline { text-decoration: underline;}
+.text-dashed { border-bottom: 1px dashed;}
+.text-word-col { -moz-column-count: 2; -webkit-column-count: 2; column-count: 2;}
+.unbold {font-weight: normal;}
+.bold {font-weight: bold;}
+.italic, .i {font-style: italic;}
+.large, .larger {font-size: 2em;}
+.font-reset { font-size: inherit !important;}
+.tall, .Tall { height: 100%; }
+.smaller { font-size: .85em; }
+.tiny-text { font-size: 55%; }
+
+// Force Full Width
+.Full-Width, .full-width, .fullwidth { max-width: 100% !important; width: 100% !important; }
+
+// Margins & Padding 
+.no-margin, .nomargin { margin: 0 !important; }
+.no-padding, .nopadding { padding: 0 !important; }
+.no-gut{margin: 0 !important; padding: 0 !important;}
+.padded { padding-top: 5em; padding-bottom: 5em; }
+.padded-top { padding-top: 5em; }
+.padded-bottom { padding-bottom: 5em; }
+
+.padded { 
+	padding-top: 5em; 
+	padding-bottom: 5em; 
+	&.more {
+		padding-top: 7em; 
+		padding-bottom: 7em; 		
+	}
+	&.less { 
+		padding-top: 3em; 
+		padding-bottom: 3em;
+	}
+	&.tiny { 
+		padding-top: 1em; 
+		padding-bottom: 1em;
+	}
+	&.grid-help {
+		padding-top: 1.2em;
+		padding-bottom:1.2em;
+	}	
+	&.med { 
+		padding-top: 2em; 
+		padding-bottom: 2em;
+	}	
+	&.all {
+		padding-left: 3em;
+		padding-right: 3em;		
+	}
+}
+.padded-top { 
+	padding-top: 5em; 
+	&.less { 
+		padding-top: 3em; 
+	}
+	&.med { 
+		padding-top: 2em; 
+	}	
+	&.tiny { 
+		padding-top: 1em;  
+	}	
+	&.flexslider-quote {
+		padding-top: 8em;
+	}
+}
+.padded-bottom { 
+	padding-bottom: 5em; 
+	&.less { 
+		padding-bottom: 3em;
+	}
+	&.tiny { 
+		padding-bottom: 1em;
+	}	
+}
+.margined { 
+	margin-top: 5em; 
+	margin-bottom: 5em; 
+	&.more {
+		padding-top: 7em; 
+		padding-bottom: 7em; 		
+	}	
+	&.less { 
+		margin-top: 3em; 
+		margin-bottom: 3em;
+	}
+	&.tiny { 
+		margin-top: 0.5em; 
+		margin-bottom: 0.5em;
+	}	
+}
+.margined-top { 
+	margin-top: 5em; 
+	&.less {  
+		margin-top: 3em; 
+	}
+    &.more {
+        margin-top: 7em; 
+    }       
+	&.tiny {  
+		margin-top: 1em; 
+	}	 
+}
+.margined-bottom {   
+	margin-bottom: 5em; 
+	&.less { 
+		margin-bottom: 3em;
+	}
+	&.tiny { 
+		margin-bottom: 1em;
+	}	
+}
+
+// Positioning
+.f-l {float: left;}
+.f-r {float: right;} 
+.c-b {clear: both;}
+.c-z {clear: none;} 
+
+// Lists
+ul.list {
+	list-style-type: inherit;
+	margin: inherit; 
+	list-style-position: inside;
+	li {
+		list-style-type: inherit;
+		margin: inherit;
+		list-style-position: inside;
+		color: inherit;
+	}
+}
+
+// Flex Fix
+.flex {
+	flex-direction: column;
+	@media(min-width:767px) {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+// Image Fix
+img {
+	max-width: 100%;
+}
+
+a:hover {
+    cursor: pointer;
+}
+// Background Shortcuts
+.bg-fixed {
+	background-attachment: fixed;
+}
+.bg-cover {
+	background-size: cover;
+}
+.bg-cover-i {
+	background-size: cover !important;	
+}
+.bg-norepeat {
+	background-repeat: no-repeat;
+}
+.no-bullet {
+	list-style-type: none;
+}
+
+.bg-center{
+	background-position: center;
+}
+
+.bg-clear{
+	background-color: rgba(255, 0, 0, 0)
+}
+
+.bg-center-bottom{    background-position: center bottom;}
+
+
+h1 {
+	font-size: 3.25em;
+}
+
+.btn {
+    @extend .questrial;
+    padding: .65em 2em;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+    @extend .white-border;
+    @extend .white-text;
+    background-color: transparent;
+    &:hover,
+    &:focus {
+        outline: none;
+        @extend .grey-text;
+        @extend .white;
+    }    
+    &.grey {
+        @extend .grey-border;
+        @extend .grey-text;
+        &:hover,
+        &:focus {
+            color: white;
+            @extend .grey;
+        }
+    }    
+    &.ltgrey {
+        @extend .ltgrey-border;
+        @extend .ltgrey-text;
+        &:hover,
+        &:focus {
+            color: white;
+            @extend .ltgrey;
+        }
+    }        
+    &.turq {
+        @extend .white-border;
+        @extend .white-text;
+        @extend .turq;
+        &:hover,
+        &:focus {
+            @extend .turq-text;
+            @extend .white;
+        }
+    }    
+    &.orange {
+        @extend .orange-border;
+        @extend .orange-text;
+        background: transparent;
+        &:hover,
+        &:focus {
+            color: white;
+            background: map-get($colours, "orange");
+        }
+    }            
+}
+.animate {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    font-size: 40px;
+    color: white;
+    background: transparent;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    &:hover,
+    &:focus {
+        outline: none;
+        color: white;
+        background: rgba(white, 0.1);
+    }
+    i.animated {
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+    }
+    &:hover {
+        i.animated {
+            -webkit-animation-name: pulse;
+            -moz-animation-name: pulse;
+            -webkit-animation-duration: 1.5s;
+            -moz-animation-duration: 1.5s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+        }
+    }
+}
+
+@-webkit-keyframes pulse {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    from {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  // margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  // z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.media {
+	.media-left, .media-right {}
+	.media-body {
+		width: auto;
+	}
+}
+
+svg, svg.icon {
+    max-width: 100%;
+    &.whitepaper {
+        height: 4em;
+    }
+    &.clipboard {
+        height: 4em;
+    }    
+    &.lightbulb {
+        height: 5em;
+    }        
+    &.securitycloud {
+        width: 6em;
+    }
+}
+
+
+i.arrowed {
+    display: inline;
+}
+.arrowed {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        right: -2em;
+        top: 0;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    &.inside {
+        &:after {
+            left: .25em;
+            bottom: .25em;
+            width: 1.25em;
+            height: 1em;            
+        }
+    }
+    &.rarr-blue {
+        &:after {
+            content: '';
+            background: url(../img/svg/rarr-blue.svg) no-repeat;
+        }        
+    }
+    &.rarr-yellow {
+        &:after {
+            content: '';
+            background: url(../img/svg/rarr-yellow.svg) no-repeat;
+        }        
+    }
+    &.rarr-white {
+        &:after {
+            content: '';
+            background: url(../img/svg/rarr-white.svg) no-repeat;
+        }        
+    }        
+}
+
+// Responsive Text Align
+// .text-xs-left { text-align: left; }
+// .text-xs-right { text-align: right; }
+// .text-xs-center { text-align: center; }
+// .text-xs-justify { text-align: justify; }
+
+// @media (min-width: @screen-sm-min) {
+//     .text-sm-left { text-align: left; }
+//     .text-sm-right { text-align: right; }
+//     .text-sm-center { text-align: center; }
+//     .text-sm-justify { text-align: justify; }
+// }
+
+// @media (min-width: @screen-md-min) {
+//     .text-md-left { text-align: left; }
+//     .text-md-right { text-align: right; }
+//     .text-md-center { text-align: center; }
+//     .text-md-justify { text-align: justify; }
+// }
+
+// @media (min-width: @screen-lg-min) {
+//    .text-lg-left { text-align: left; }
+//    .text-lg-right { text-align: right; }
+//    .text-lg-center { text-align: center; }
+//    .text-lg-justify { text-align: justify; }
+// }
+
+
