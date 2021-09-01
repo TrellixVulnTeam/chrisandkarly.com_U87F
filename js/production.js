@@ -30,23 +30,41 @@ $(document).ready(function() {
 
 	// }); // End MQ Responsive WindowResize Event
 
-$("#galleryMain").justifiedGallery();
 
-$("a.fancyImg").fancybox({
-	'hideOnContentClick': true
+
+$('#galleryMain').justifiedGallery({
+    lastRow : 'nojustify', 
+    rowHeight : 160, 
+    rel : 'eng-gallery',
+    margins : 3
+}).on('jg.complete', function () {
+    $('a.fancyImg').fancybox({
+		'hideOnContentClick': true,				
+		helpers: {
+			overlay: {
+				locked: false
+			}
+		}
+	});
 });
+
 
 
 
     ///// Window Width Responsive
 
     var $window = $(window);
+	var windowsize = $window.width();    
 
 	function checkWidth() {
-		var windowsize = $window.width();
 		if (windowsize > 992) {
 			navHover();
+			$(".navbar-fixed-top").removeClass("top-nav-collapse");			
 		}
+		else if (windowsize < 992) {
+        	$(".navbar-fixed-top").addClass("top-nav-collapse");
+		}
+		else {}
 	}
    // Execute on load
    	checkWidth();
@@ -55,9 +73,46 @@ $("a.fancyImg").fancybox({
 
 
 
-$(window).resize(function() {
-   console.log($window.width());
- });
+// $(window).resize(function() {
+//    console.log($window.width());
+//  });
+
+
+
+
+
+// jQuery to collapse the navbar on scroll
+function collapseNavbar() {
+    if ($(".navbar").offset().top > 50 && windowsize > 992) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    }
+	else if( $(".navbar").offset().top < 50 && windowsize > 992) {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    } 
+    else {}
+};
+
+$(window).scroll(collapseNavbar);
+$(document).ready(collapseNavbar);
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+
+
+
+
+
+
+
 
 
 // function hammertime () {

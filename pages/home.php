@@ -47,15 +47,15 @@
 
     <div class="row text-xs-center text-sm-center">
         <article class="blog-home-list col-sm-12 col-md-6">
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">His Side of the Story</h5>
+            <h4 class="uppercase dkblue-text margined-top tiny questrial">His Side of the Story</h4>
             <h4 class="questrial">
-                John Mackiewicz is the driver and team owner of Hack Shack Racing. Coming from a background in technology and competitive swimming, John found a new passion in offroad racing to fill the void of his high adrenaline lifestyle. From khakis to carhartts, he's responsible for keeping the team and the jeep, moving forward.
+                I had my eye on Karly for a while. I distinctly remember telling my best friend about "the cute social media girl at work," but I didn't know just quite how to make a move without messings things up. I tried time and time again to invite her our to happy hours with coworkers, but believe it or not Karly was quite the social butterfly - always a yoga class or spin class to get to after work. With the help of a friend at work, I finally got her to join me one night. After a few whikey mules and some great conversation, we both realized we were starving! On that cold winter night - our search for food landed the two of us at none other than the Meatball shop - the perfect warm meal to end what we would then call our first date. 
             </h4>
         </article>
         <article class="blog-home-list col-sm-12 col-md-6">
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Her Side of the Story</h5>
+            <h4 class="uppercase ltgrey-text margined-top tiny questrial">Her Side of the Story</h4>
             <h4 class="questrial">
-                Jon Galica, is the coDriver and primary navigator. During the day he's an aerospace engineer, and at night, he puts his skills to use as a custom fabricator and racecar mechanic. Jon is the other half of the "John & Jon" Dynamic Duo - founders of Hack Shack Racing.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </h4>
         </article>
     </div> 
@@ -188,17 +188,11 @@
 <section id="gallery" class="padded less margined">
     <div class="container">
         <div class="col-sm-12">
+            <h1 class="questrial dkblue-text padded-bottom tiny" align="center">
+                Gallery
+            </h1>
 
 
-    <?php
-        $fileList = glob('img/sub/gallery/*.jpg');
-        foreach($fileList as $filename){
-            //Use the is_file function to make sure that it is not a directory.
-            if(is_file($filename)){
-                echo $filename, '<br />'; 
-            }   
-        }
-    ?>
 
 <div id="galleryMain">
     <?php
