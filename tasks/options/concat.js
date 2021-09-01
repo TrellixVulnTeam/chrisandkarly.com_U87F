@@ -1,8 +1,11 @@
 module.exports = {
-	dist: {
-	src: [
-		'js/production.js'
-	],
-	dest: 'js/production.min.js'
-   }
+
+      options: {
+        separator: ';\n',
+      },
+      dist: {
+        src: ['js/vendor/*.js'],
+        dest: 'js/vendor.js',
+      },
+
 }

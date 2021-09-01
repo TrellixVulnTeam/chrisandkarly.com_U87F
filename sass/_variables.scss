@@ -26,6 +26,10 @@ $colours: (
   "brown": #8C756A
 );
 
+.beige50 {
+  background-color: rgb(239 239 239 / 50%);
+}
+
 // Color Class Buildout
 @each $colour, $colour_value in $colours {
   .#{$colour} {

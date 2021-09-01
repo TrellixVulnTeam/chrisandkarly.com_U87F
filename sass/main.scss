@@ -1,5 +1,5 @@
-// HSR
-// 2017
+// CNK
+// 2021
 
 @import "variables";
 @import "mixins";
@@ -95,7 +95,7 @@ a {
             a {
                 color: map-get($colours, "brown");
                 &:hover {
-                    color: map-get($colours, "green");
+                    color: map-get($colours, "dkblue");
                 }
             }
         }
@@ -103,7 +103,7 @@ a {
     margin-bottom: 0;
     // border-bottom: 1px solid rgba(white, 0.3);
     @extend .questrial;
-    @extend .brandblue;
+    @extend .white;
     .navbar-header {
         @media (min-width: 768px) and (max-width: 991px) {
             width: 100%;
@@ -596,7 +596,12 @@ a {
         background-image: url(../img/banner/cnk-proposal.jpg);
         @extend .white-text;
         @extend .bg-fixed;
-    }      
+    }
+    &.cheers {
+        background-image: url(../img/banner/cnk-cheers.jpg);
+        @extend .white-text;
+        @extend .bg-fixed;
+    }          
     &.grit {
         background-image: url(../img/banner/hsr-banner-grit2.jpg);
         @extend .white-text;
@@ -1158,18 +1163,14 @@ footer {
     }
 }
 
-#sponsor-logos {
+#registry {
     .container {
-        .sponsor {
-            min-height: 100px;
+        .store img {
+            @extend .desaturate;
             display: flex;
             align-items: center;
-            p {
-                vertical-align: middle;
-                margin: 0;
-            }
-            &.small {
-                min-height: 70px;
+            &:hover {
+                @extend .saturate;
             }
         }
     }
@@ -1199,7 +1200,8 @@ footer {
 
 }
 
-.hammers-countdown {
+.countdown {
+    letter-spacing: inherit;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1212,7 +1214,7 @@ footer {
     .KOHLogo {
         position: absolute;
         right: 0;
-        bottom: -10px;
+        bottom: -50px;
         width: 225px;
         @media (max-width: 549px) {
             top: 5px;
@@ -1220,6 +1222,9 @@ footer {
         }
         @media (min-width: 550px) and (max-width: 1200px) {
             top: -40px;
+        }
+        img {
+            max-width: 150px;
         }
     }
 }

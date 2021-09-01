@@ -11,8 +11,9 @@
 
     <title>Chris & Karly are Engaged!</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap & Vendor CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendor.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
@@ -39,62 +40,21 @@
 
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/fancybox.min.js"></script>
+<!-- Vendor JavaScript -->
+<script src="js/vendor.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-    <script src="js/production.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/grayscale.js"></script>
+<script src="js/production.min.js"></script>
 
-    <!-- Custom Form Submission JavaScript -->
-    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
-    <script>
-var end = new Date('02/02/2018 9:00 AM');
 
-    var _second = 1000;
-    var _minute = _second * 60;
-    var _hour = _minute * 60;
-    var _day = _hour * 24;
-    var timer;
-
-    function showRemaining() {
-        var now = new Date();
-        var distance = end - now;
-        if (distance < 0) {
-            clearInterval(timer);
-            document.getElementById('preK').style.display = 'none';
-            document.getElementById('K').style.display = 'block';
-            return;
-        }
-        var days = Math.floor(distance / _day);
-        var hours = Math.floor((distance % _day) / _hour);
-        var minutes = Math.floor((distance % _hour) / _minute);
-        var seconds = Math.floor((distance % _minute) / _second);
-
-        if (days > 10) {
-            document.getElementById('countdown').innerHTML = days + ' Days ';
-            return;
-        }
-        if (days <= 10) {
-            document.getElementById('countdown').innerHTML = days + ' Days ';
-            // document.getElementById('countdown').innerHTML += hours + ' hours, ';
-            // document.getElementById('countdown').innerHTML += minutes + ' minutes, and ';
-            // document.getElementById('countdown').innerHTML += seconds + ' seconds';
-            return;
-        }
-    }
-
-    timer = setInterval(showRemaining, 1000);        
-
-    </script>
 
 </body>
 

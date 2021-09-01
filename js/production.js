@@ -30,7 +30,11 @@ $(document).ready(function() {
 
 	// }); // End MQ Responsive WindowResize Event
 
+$("#galleryMain").justifiedGallery();
 
+$("a.fancyImg").fancybox({
+	'hideOnContentClick': true
+});
 
 
 

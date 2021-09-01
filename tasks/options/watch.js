@@ -13,7 +13,8 @@ module.exports = {
       files: ['css/*.css']
   },
     devWatchJS: {
-      files: ['js/*.js']
+      files: ['js/*.js'],
+      tasks: ['concat','uglify']      
   },
   svg: {
     files: ["img/svg/*.svg"],
