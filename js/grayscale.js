@@ -13,7 +13,12 @@
 $('.navbar-collapse ul li a').click(function() {
   if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
     $('.navbar-toggle:visible').click();
+    $('nav.navbar').removeClass('white');    
   }
+});
+
+$('.navbar-toggle:visible').click(function() {
+    $('nav.navbar').addClass('white');
 });
 
 // Google Maps Scripts

@@ -49,13 +49,18 @@
         <article class="blog-home-list col-sm-12 col-md-6">
             <h4 class="uppercase dkblue-text margined-top tiny questrial">His Side of the Story</h4>
             <h4 class="questrial">
-                I had my eye on Karly for a while. I distinctly remember telling my best friend about "the cute social media girl at work," but I didn't know just quite how to make a move without messings things up. I tried time and time again to invite her our to happy hours with coworkers, but believe it or not Karly was quite the social butterfly - always a yoga class or spin class to get to after work. With the help of a friend at work, I finally got her to join me one night. After a few whikey mules and some great conversation, we both realized we were starving! On that cold winter night - our search for food landed the two of us at none other than the Meatball shop - the perfect warm meal to end what we would then call our first date. 
+                I had my eye on Karly for a while. I distinctly remember telling my best friend about "the cute social media girl at work," but I didn't know just quite how to make a move without messing things up. I tried time and time again to invite her out to happy hours with coworkers, but Karly was quite the social butterfly - always a yoga class or a conert to get to. With the help of colleague, I finally got her to join me one night. After a few whikey mules and some great conversation, we both realized we were starving! On that cold winter night - our search for food landed the two of us at none other than the Meatball shop - the perfect warm meal to end what would then be known as our first date. 
             </h4>
+            <h4 class="questrial">
+                Since then, it's been nothing short of adventure. Whether Jackson Hole, Utah, Portland, or the Jersey Shore - we can't stay still for long. We're excited to find a place we can make our own home, and we can't wait to take off on our next adventure. 
+            </h4>            
         </article>
         <article class="blog-home-list col-sm-12 col-md-6">
             <h4 class="uppercase ltgrey-text margined-top tiny questrial">Her Side of the Story</h4>
             <h4 class="questrial">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                It started with a Whisky Mule. He finally convinced me to get drinks after work. I always had something going on, but happened to be free this time, and he was pretty persistent. We were talking about Mules and told Chris he could try mine. Our hands touched and I thought, "he could be the one for me". Cheesy and gross—I know and I'm sorry, but that's what happened. Fast forward a few weeks (though Chris apparently thinks it was the same night—it was not). We were out again and it was freezing out. Chris noticed I was chattering, and put his coat around me to keep me warm. We ended up in the Lower East Side at the Meatball Shop. Amongst meatballs, wine and pasta we talked and laughed all night long. That weekend, Chris came over and spent the afternoon helping me cook for a Hanukkah dinner I was having with friends. After dinner, as we were cleaning up and putting dishes in the dishwasher, Chris gave me a kiss. It was the beginning of our adventure together.
+            </h4>
+            <h4 class="questrial">From then on, we’ve eaten many a meatballs, cooked Hanukkah and Christmas dinners, had more Mules and traveled across the country together. Can’t wait to see what is next.
             </h4>
         </article>
     </div> 
@@ -69,11 +74,23 @@
 <div class="backgrounded proposal">
     <div class="container">
         <div class="col-md-10">
-            <h1 class="dkgrey-text beige50" style="display: inline-block;">a bike ride and a sunset</h1>
+            <h1 class="dkgrey-text beige50">a bike ride and a sunset</h1>
             <br>
-            <h4 class="dkgrey-text beige50" style="display: inline-block;">
-                that was the cover story. at the same place we would always stop, climb up the jetty, and look out on to the ocean when we rode our bicycles. 
+            <h4 class="dkgrey-text beige50">
+                that was the cover story.
             </h4>
+            <br>
+            <h4 class="dkgrey-text beige50">
+                after dinner in Longport, Chris offered a bike ride down to the jetty to take in the sunset - <br>to the same place we would always stop when we rode our bicycles. 
+            </h4>
+            <br>
+            <h4 class="dkgrey-text beige50">
+                we climbed up the rocks, watched the waves crashing on the jetty and the boats in the distance, and Chris bent down on one knee to ask for Karly's hand. 
+            </h4>
+            <br>
+            <h4 class="dkgrey-text beige50">
+                waiting close by were Karly's best friends, her parents, and close family friends to celebrate the moment. 
+            </h4>            
         </div>
     </div>
 </div>
@@ -83,35 +100,35 @@
 <!-- Registry Section -->
 <section id="registry" class="padded beige50">
 <div class="container">
-    <div class="row text-xs-center text-sm-center">
-        <div class="col-xs-12 text-center">
-            <br>
-            <h1 class="questrial dkblue-text" align="center">
-                Registry
-            </h1>
-            <h4 class="questrial padded-bottom less">
-                We have registries available at the retailers listed below. 
-            </h4>
-        </div>    
+    <div class="col-xs-12 text-center">
+        <br>
+        <h1 class="questrial dkblue-text" align="center">
+            Registry
+        </h1>
+        <h4 class="questrial padded-bottom less">
+            We have registries available at the retailers listed below. 
+        </h4>
+    </div>    
+        
         <div class="row">
             <div class="store col-xs-6 col-sm-3 center">
                 <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_westelm.png" alt=""></a></p>
+                    <a href="https://www.westelm.com/registry/8b8w2qx6km/registry-list.html" target="_blank"><img class="align-middle" src="img/sub/registry/logo_westelm.png" alt=""></a></p>
             </div>
             <div class="store col-xs-6 col-sm-3 center">
                 <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_crateandbarrel.png" alt=""></a></p>
+                    <a href="https://www.crateandbarrel.com/gift-registry/karly-domsky-and-chris-williams/r6368236" target="_blank"><img class="align-middle" src="img/sub/registry/logo_crateandbarrel.png" alt=""></a></p>
             </div>
             <div class="store col-xs-6 col-sm-3 center">
                 <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_williamssonoma.png" alt=""></a></p>
+                    <a href="https://www.williams-sonoma.com/registry/k7nmddsgmx/registry-list.html" target="_blank"><img class="align-middle" src="img/sub/registry/logo_williamssonoma.png" alt=""></a></p>
             </div>
             <div class="store col-xs-6 col-sm-3 center">
                 <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_bbb.png" alt=""></a></p>
+                    <a href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/550671786?eventType=Wedding" target="_blank"><img class="align-middle" src="img/sub/registry/logo_bbb.png" alt=""></a></p>
             </div>
         </div>
-        <div class="row">
+        <div class="row hide">
             <div class="store col-xs-6 col-sm-2 center">
                 <p>
                     <a href="#"><img class="align-middle" src="img/sub/registry/logo_rh.png" alt=""></a></p>
@@ -129,25 +146,6 @@
                     <a href="#"><img class="align-middle" src="img/sub/registry/logo_macys.png" alt=""></a></p>
             </div>            
         </div>
-        <div class="row hide">
-            <div class="store col-xs-6 col-sm-4 center">
-                <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_harborfreight.png" alt=""></a></p>
-            </div>
-            <div class="store col-xs-6 col-sm-3 center">
-                <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_huckberry.png" alt=""></a></p>
-            </div>
-            <div class="store col-xs-6 col-sm-2 center">
-                <p>
-                    <a href="#"><img class="align-middle padded-top tiny" src="img/sub/registry/logo_kohls.png" alt=""></a></p>
-            </div>
-            <div class="store col-xs-6 col-sm-3 center">
-                <p>
-                    <a href="#"><img class="align-middle" src="img/sub/registry/logo_target.png" alt=""></a></p>
-            </div>
-        </div>                       
-    </div>
 </div>
 </section>
 
@@ -172,8 +170,8 @@
     </div>
 </section>
 
-<!-- Gallery -->
-<section id="gallery" class="text-left">
+<!-- Cheers -->
+<section id="cheers" class="text-left">
 <div class="backgrounded cheers">
     <div class="container">
         <div class="col-sm-12 text-center">
@@ -188,10 +186,12 @@
 <section id="gallery" class="padded less margined">
     <div class="container">
         <div class="col-sm-12">
-            <h1 class="questrial dkblue-text padded-bottom tiny" align="center">
+            <h1 class="questrial dkblue-text" align="center">
                 Gallery
             </h1>
-
+        <h4 class="questrial padded-bottom less text-center">
+            Photography of the engagement captured by <a href="https://taylornicolephoto.com/" target="_blank">TaylorNicolePhoto</a>.
+        </h4>
 
 
 <div id="galleryMain">

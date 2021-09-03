@@ -61,9 +61,9 @@ $('#galleryMain').justifiedGallery({
 			navHover();
 			$(".navbar-fixed-top").removeClass("top-nav-collapse");			
 		}
-		else if (windowsize < 992) {
-        	$(".navbar-fixed-top").addClass("top-nav-collapse");
-		}
+		// else if (windowsize < 992) {
+  //       	$(".navbar-fixed-top").addClass("top-nav-collapse");
+		// }
 		else {}
 	}
    // Execute on load
@@ -83,10 +83,10 @@ $('#galleryMain').justifiedGallery({
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
-    if ($(".navbar").offset().top > 50 && windowsize > 992) {
+    if ($(".navbar").offset().top > 50 ) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     }
-	else if( $(".navbar").offset().top < 50 && windowsize > 992) {
+	else if( $(".navbar").offset().top < 50 ) {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     } 
     else {}
