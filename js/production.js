@@ -39,7 +39,11 @@ $('#galleryMain').justifiedGallery({
     margins : 3
 }).on('jg.complete', function () {
     $('a.fancyImg').fancybox({
-		'hideOnContentClick': true,				
+		'hideOnContentClick': true,
+		afterLoad: function() {
+			_gaq.push(['_trackEvent','FancyBox','Open',this.href, ,true]);
+			console.log("Fancy");
+		},		
 		helpers: {
 			overlay: {
 				locked: false

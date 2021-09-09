@@ -2,12 +2,14 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="fb:app_id" content="1045439599537667" />
+    <meta property="fb:admins" content="1087560033"/>
+    <meta property="fb:admins" content="552535663"/>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Chris and Karly are Engaged! Celebrate with Us! ">
+    <meta name="author" content="Chris and Karly">
 
     <title>Chris & Karly are Engaged!</title>
 
