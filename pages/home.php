@@ -149,8 +149,6 @@
 </div>
 </section>
 
-
-
 <!-- Where & When Section -->
 <section id="wherewhen" class="padded less margined">
 <div class="container">
@@ -178,6 +176,27 @@
             <h1 class="dkgrey-text beige" style="display: inline-block; text-align: center;">cheers!</h1>
         </div>
     </div>
+</div>
+</section>
+
+
+<!-- Guestbook Section -->
+<section id="guestbook" class="padded beige50">
+<div class="container">
+    <div class="col-xs-12 text-center">
+        <br>
+        <h1 class="questrial dkblue-text" align="center">
+            Guestbook
+        </h1>
+        <h4 class="questrial padded-bottom less">
+            Leave us a message! 
+        </h4>
+    </div>    
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="fb-comments" data-href="https://www.chrisandkarly.com" data-width="100%" data-numposts="15" data-mobile="true"></div>
+        </div>
 </div>
 </section>
 

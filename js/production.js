@@ -50,7 +50,6 @@ $('#galleryMain').justifiedGallery({
 
 
 
-
     ///// Window Width Responsive
 
     var $window = $(window);
@@ -105,15 +104,6 @@ $(function() {
         event.preventDefault();
     });
 });
-
-
-
-
-
-
-
-
-
 
 // function hammertime () {
 
