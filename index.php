@@ -31,11 +31,18 @@
 
 </head>
 
-<body id="page-top" class="nonav" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 <?php include_once ('includes/analytics.php'); ?>
 <?php include ('includes/header.php'); ?>
-<?php include ('pages/comingsoon.php'); ?>
+<?php $page = htmlspecialchars($_GET["page"]);
+    if ($page == '') {
+        $page = "home";
+    }
+?>
+<?php include ("pages/$page.php"); ?>
+<?php include ('includes/footer.php') ?>  
+
 
 
 <!-- jQuery -->
