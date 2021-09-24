@@ -42,7 +42,7 @@ $('#galleryMain').justifiedGallery({
 		'hideOnContentClick': true,
 		afterLoad: function() {
 			_gaq.push(['_trackEvent','FancyBox','Open',this.href, ,true]);
-			console.log("Fancy");
+			// console.log("Fancy");
 		},		
 		helpers: {
 			overlay: {
@@ -51,6 +51,33 @@ $('#galleryMain').justifiedGallery({
 		}
 	});
 });
+
+
+
+// var thisHash = window.location.hash;
+
+//     $('#rsvp').fancybox({
+//         'hideOnContentClick': true,
+//         closeBtn: true,
+// 		helpers: {
+// 			overlay: {
+// 				locked: false
+// 			}
+// 		},
+//         beforeShow: function() {
+//             var id = this.element.attr("id")
+//             if (id) {
+//                 window.location.hash = id;
+//             }
+//         },
+//         beforeClose: function() {
+//             window.location.hash = "";
+//         }
+//     });
+
+//     if (thisHash) {
+//         $(thisHash).trigger('click');
+//     }
 
 
 

@@ -113,7 +113,7 @@
         <div class="row">
             <div class="store col-xs-6 col-sm-3 center">
                 <p>
-                    <a href="https://www.westelm.com/registry/8b8w2qx6km/registry-list.html" target="_blank"><img class="align-middle" src="img/sub/registry/logo_westelm.png" alt=""></a></p>
+                    <a href="https://www.westelm.com/registry/k7nmddsgmx/registry-list.html" target="_blank"><img class="align-middle" src="img/sub/registry/logo_westelm.png" alt=""></a></p>
             </div>
             <div class="store col-xs-6 col-sm-3 center">
                 <p>

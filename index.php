@@ -45,8 +45,6 @@
 <?php include ("pages/$page.php"); ?>
 <?php include ('includes/footer.php') ?>  
 
-
-
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
